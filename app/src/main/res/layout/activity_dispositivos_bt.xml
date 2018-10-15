@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.programing.steeve.steeve_bt.DispositivosBT">
+
+    <ListView
+        android:id="@+id/Idlista"
+        android:layout_width="700px"
+        android:layout_height="600px"
+        android:layout_below="@+id/Idtitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
+
+</RelativeLayout>
